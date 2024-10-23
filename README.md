@@ -116,6 +116,12 @@ brew install supabase/tap/supabase
 
 **Windows**
 
+You may need to install Scoop to your system first, run:
+
+```bash
+iwr get.scoop.sh -useb | iex
+```
+
 ```bash
 scoop bucket add supabase https://github.com/supabase/scoop-bucket.git
 scoop install supabase
